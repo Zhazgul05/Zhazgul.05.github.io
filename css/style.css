@@ -1,0 +1,158 @@
+:root {
+  --accent: rgb(149, 184, 23);
+  --accent-light: gray;
+  --pure-white: #fff;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*,
+*:before,
+:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: cursive, sans-serif;
+  margin: 0;
+}
+
+.container {
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.section-title {
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--accent-light);
+}
+
+.main-navigation {
+  display: flex;
+  padding: 10px 0;
+  background-color: rgb(149, 184, 23);
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.header-logo {
+  box-shadow: 25%;
+  float: left;
+  color: #fff;
+}
+
+.header a {
+  margin: 0;
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu {
+  display: flex;
+  padding: 0;
+  margin-left: 300px;
+  list-style: none;
+  font-size: 0;
+}
+
+.item {
+  display: inline-block;
+}
+
+.link {
+  text-transform: uppercase;
+  padding: 0 15px;
+  margin-left: 300px;
+  font-size: 16px;
+}
+
+.section-titles {
+  text-align: center;
+  color: gray;
+}
+
+.intro {
+  padding: 60px 0;
+}
+
+.intro-inner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.intro-images {
+  width: 30%;
+}
+
+.intro-img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+.intro-text {
+  width: 50%;
+  color: gray;
+}
+
+.intro-text h1,
+.intro-text h3 {
+  margin: 0 0 10px;
+}
+
+.contacts {
+  margin-bottom: 60px;
+  color: gray;
+}
+
+.contacts ul {
+  display: flex;
+  justify-content: center;
+  color: gray;
+  gap: 30px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.contacts li {
+  text-align: center;
+}
+
+.skills {
+  padding: 60px 0;
+  color: var(--pure-white);
+  background-color: var(--accent);
+}
+
+.skills ul {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.skills li {
+  padding: 10px 45px;
+  background-color: var(--accent-light);
+  border-radius: 5px;
+}
+
+.code-example pre {
+  width: 50%;
+  margin: 0 auto;
+  text-align: left;
+  color: var(--pure-white);
+  font-size: 1.2em;
+  background-color: var(--accent);
+  border-radius: 8px;
+}
